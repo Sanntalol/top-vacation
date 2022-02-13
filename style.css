@@ -1,0 +1,68 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+
+body {
+    background-color: rgb(229, 184, 255);
+}
+.banner {
+    height: 250px;
+    background-image: url('images/imagge.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-align: center;
+    border: 2px solid black,
+}
+h2 {
+    padding-top: 150px;
+    letter-spacing: 15px;
+    color: seashell;
+
+}
+ .intro {
+     text-align: center;
+     font-family: Verdana, Geneva, Tahoma, sans-serif;
+     border: 2px double red;
+
+ }
+ q {
+     font-family: fantasy;
+ }
+ 
+.destination {
+    text-align: left
+}
+.destination h3 {
+    color: blueviolet;
+}
+.destination p {
+    color: blue;
+    font font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    font-size: 20px; 
+}
+.destination h4 {
+    color: brown
+}
+.destination ul {
+    list-style-type: square;
+    margin-left: 2%;
+}
+.more {
+    text-align: left;
+}
+.more h3 {
+    color: rgb(49, 255, 49);
+}
+.more ul {
+    color: greenyellow;
+}
+.more ul li {
+    color: greenyellow;
+}
+.footer {
+    border: 2px double blue;
+    border-radius: 15px;
+}
